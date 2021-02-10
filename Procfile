@@ -1,1 +1,1 @@
-web: gunicorn mascate.wsgi --log-file -
+web: gunicorn mascate.wsgi --git pushlog-file -
