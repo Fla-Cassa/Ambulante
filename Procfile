@@ -1,1 +1,0 @@
-web: gunicorn mascate.wsgi --git pushlog-file -
