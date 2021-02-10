@@ -1,0 +1,1 @@
+web: gunicorn caixeiro.wsgi --log-file -
