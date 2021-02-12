@@ -1,1 +1,1 @@
-web: gunicorn caixeiro.wsgi --log-file -
+web: gunicorn mascate.wsgi --log-file -
