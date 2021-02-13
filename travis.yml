@@ -1,0 +1,17 @@
+language: python
+
+dist: xenial
+
+python:
+  - 3.8
+
+env:
+  global:
+
+install:
+  - pip install pipenv
+  - pipenv sync -d
+
+script:
+-pipenv run flake8
+-pipenv run pytest
